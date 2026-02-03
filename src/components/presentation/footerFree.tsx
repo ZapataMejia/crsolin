@@ -5,81 +5,41 @@ const YEAR = new Date().getFullYear();
 
 const SOCIAL_MEDIA = [
   {
-    icon: "fab fa-twitter",
-    link: "https://www.twitter.com/creativetim?ref=astrolaunch-ui",
-  },
-  {
-    icon: "fab fa-facebook-square",
-    link: "https://www.facebook.com/creativetim?ref=astrolaunch-ui",
-  },
-  {
-    icon: "fab fa-dribbble",
-    link: "https://www.dribbble.com/creativetim?ref=astrolaunch-ui",
+    icon: "fab fa-whatsapp",
+    link: "https://wa.me/573113608491",
   },
   {
     icon: "fab fa-github",
-    link: "https://www.github.com/creativetimofficial?ref=astrolaunch-ui",
-  },
-  {
-    icon: "fab fa-discord",
-    link: "https://discord.com/invite/gxtg2rJa?ref=astrolaunch-ui",
+    link: "https://github.com/ZapataMejia",
   },
 ];
 
 const COMPANY = [
   {
-    name: "About Us",
-    link: "https://www.creative-tim.com/presentation?ref=astrolaunch-ui",
+    name: "Nosotros",
+    link: "/about",
   },
   {
-    name: "Blog",
-    link: "https://www.creative-tim.com/blog?ref=astrolaunch-ui",
-  },
-  {
-    name: "Github",
-    link: "https://github.com/creativetimofficial?ref=astrolaunch-ui",
-  },
-  {
-    name: "Free Products",
-    link: "https://www.creative-tim.com/templates/free?ref=astrolaunch-ui",
+    name: "GitHub",
+    link: "https://github.com/ZapataMejia",
   },
 ];
 
 const HELP = [
   {
-    name: "Knowledge Center",
-    link: "https://www.creative-tim.com/knowledge-center?ref=astrolaunch-ui",
+    name: "Contactar (WhatsApp)",
+    link: "https://wa.me/573113608491",
   },
   {
-    name: "Contact Us",
-    link: "https://www.creative-tim.com/contact-us?ref=astrolaunch-ui",
-  },
-  {
-    name: "Premium Support",
-    link: "https://www.creative-tim.com/support-terms?ref=astrolaunch-ui",
-  },
-  {
-    name: "Pricing",
+    name: "Precios",
     link: "/#pricing",
   },
 ];
 
 const RESOURCES = [
   {
-    name: "Documentation",
-    link: "https://www.creative-tim.com/learning-lab/astro/overview/astro-launch-ui?ref=astrolaunch-ui",
-  },
-  {
-    name: "Custom Development",
-    link: "https://www.creative-tim.com/services/updivision?ref=astrolaunch-ui",
-  },
-  {
-    name: "Discord",
-    link: "https://discord.gg/WCvQWMwT",
-  },
-  {
-    name: "Tailwind Components",
-    link: "https://tailwindcomponents.com/?ref=astrolaunch-ui",
+    name: "GitHub",
+    link: "https://github.com/ZapataMejia",
   },
 ];
 
@@ -104,10 +64,10 @@ export function Footer() {
               variant="h4"
               className="mb-2 !font-semibold !text-primary"
             >
-              AstroLaunch UI
+              CR Soluciones Industriales
             </Typography>
             <Typography className="text-md mt-0 mb-2 font-normal !text-gray-600">
-              Easy to use for Tailwind CSS and Material Design.
+              Diseño, fabricación y reparación de piezas. Asesoría, construcción y montajes industriales.
             </Typography>
             <div className="mt-6">
               {SOCIAL_MEDIA.map(({ icon, link }, key) => (
@@ -203,19 +163,11 @@ export function Footer() {
           <div className="text-center lg:text-left">
            
             <div className="text-md mt-2 py-1 font-normal text-gray-600">
-              Copyright &copy; {YEAR}{" "}
-              <a href="/" className="text-inherit transition-all">
-                AstroLaunch UI
-              </a>{" "}
-              by{" "}
-              <a
-                href="https://www.creative-tim.com?ref=astroLaunch-ui"
-                target="_blank"
-                rel="noreferrer"
-                className="text-inherit transition-all"
-              >
-                Creative Tim. Made with ❤️ for a better web.
+              &copy; {YEAR}{" "}
+              <a href="/" className="text-inherit transition-all font-semibold">
+                CR Soluciones Industriales
               </a>
+              . Todos los derechos reservados.
             </div>
           </div>
         </div>

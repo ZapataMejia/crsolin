@@ -113,11 +113,11 @@ function ProfileMenu() {
 const accountItems = [
   {
     title: "Login",
-    href: "/astro-launch-ui/login"
+    href: "/login"
   },
   {
     title: "Sign Up",
-    href: "/astro-launch-ui/signup"
+    href: "/signup"
   }
 ];
 
@@ -181,15 +181,15 @@ function AccountListMenu() {
 const navListMenuItems = [
   {
     title: "About Us",
-    href: "/astro-launch-ui/about"
+    href: "/about"
   },
   {
     title: "Landing Page",
-    href: "/astro-launch-ui/landing"
+    href: "/landing"
   },
   {
     title: "404",
-    href: "/astro-launch-ui/404"
+    href: "/404"
   },
 ];
  
@@ -267,7 +267,9 @@ function NavList() {
         <Typography
           key={label}
           as="a"
-          href="https://www.creative-tim.com/learning-lab/astro/quick-start/astro-launch-ui/"
+          href="https://github.com/ZapataMejia"
+          target="_blank"
+          rel="noreferrer"
           variant="small"
           color="blue-gray"
           className="font-normal"
@@ -323,7 +325,7 @@ export default function ComplexNavbar() {
           href="/"
           className="mr-4 ml-2 cursor-pointer py-1.5 font-medium"
         >
-          AstroLaunch UI
+          CR Soluciones Industriales
         </Typography>
         <div className="hidden lg:flex ml-auto">
           <NavList />
@@ -337,18 +339,18 @@ export default function ComplexNavbar() {
         >
           <Bars2Icon className="h-6 w-6" />
         </IconButton>
-        <a href="https://discord.gg/WCvQWMwT" target="_blank">
+        <a href="https://wa.me/573113608491" target="_blank" rel="noreferrer" aria-label="WhatsApp">
           <Button size="sm" color="dark" variant="text">
-            <i className="fab fa-discord text-lg leading-none" aria-hidden="true"></i>
+            <i className="fab fa-whatsapp text-xl leading-none" aria-hidden="true"></i>
           </Button>
         </a>
-        <a href="https://github.com/creativetimofficial/astro-launch-ui" target="_blank">
+        <a href="https://github.com/ZapataMejia" target="_blank" rel="noreferrer" aria-label="GitHub">
           <Button size="sm" color="dark" variant="text">
             <i className="fab fa-github text-xl leading-none" aria-hidden="true"></i>
           </Button>
         </a>
-        <a href="/astro-launch-ui/#examplePages">
-          <Button color="dark">Get started</Button>
+        <a href="/#pricing">
+          <Button color="dark">Contactar</Button>
         </a>
       </div>
       <Collapse open={isNavOpen} className="overflow-scroll">

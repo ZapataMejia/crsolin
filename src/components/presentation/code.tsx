@@ -19,7 +19,7 @@ export function CodePresentation() {
               color="blue"
               className="flex items-center justify-center lg:justify-start font-bold text-lg mb-5"
             >
-              By developers, for entrepreneurs
+              Asesoría y acompañamiento
             </Typography>
 
             <Typography
@@ -27,14 +27,14 @@ export function CodePresentation() {
               color="blue-gray"
               className="mb-8 leading-tight"
             >
-              Don't write from scratch. Coded examples are included.
+              Solución y mejoramiento en procesos industriales.
             </Typography>
             <Typography color="blue-gray" className="lg:pr-20">
-              Using our ecommerce starter template will save a lot of coding time , as it provides a solid foundation for the Online Store, allowing your team to focus on customizing and adding specific features to meet the needs of your particular project.
+              Prestamos servicio de asesoría con acompañamiento en interventoría o ejecución en diseño, construcción y montaje, así como mantenimiento por outsourcing. Comercializamos repuestos, grasas y lubricantes.
             </Typography>
-            <a href="https://www.creative-tim.com/learning-lab/astro/overview/astro-launch-ui">
+            <a href="https://wa.me/573113608491" target="_blank" rel="noreferrer">
               <Button color="dark" variant="text" size="sm" className="flex items-center mx-auto md:mr-auto lg:ml-0 gap-2 mt-4">
-                Documentation <ArrowRightIcon strokeWidth={2} className="h-5 w-5" />
+                Contactar por WhatsApp <ArrowRightIcon strokeWidth={2} className="h-5 w-5" />
               </Button>
             </a>
           </div>

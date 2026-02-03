@@ -15,7 +15,7 @@ export function DevPresentation() {
               color="blue"
               className="flex items-center font-bold text-lg mb-5"
             >
-              Attention to hiqh-quality code
+              Compromiso con la calidad
             </Typography>
 
             <Typography
@@ -23,10 +23,10 @@ export function DevPresentation() {
               color="blue-gray"
               className="mb-4 leading-tight"
             >
-              Develop consistenly using Astro architecture principles
+              Soluciones industriales a la medida de tu proceso
             </Typography>
             <Typography color="blue-gray" className="lg:pr-32">
-              Using AstroLaunch UI you get everything you need to start creating your fully functional and responsive Ecommerce website in days, not months.
+              Ofrecemos asesoría, interventoría, diseño, construcción, mantenimiento por outsourcing y montajes industriales.
             </Typography>
           </div>
           <img src="consistenly.png" alt="components" className="mx-auto hidden md:flex" />

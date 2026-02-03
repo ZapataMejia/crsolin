@@ -35,10 +35,10 @@ export function PricingSectionOne() {
       <section id="pricing" className="py-24 px-8">
         <div className="container mx-auto text-center">
           <Typography variant="h2" color="blue-gray" className="mb-4">
-            Pick the best plan for you
+            Contáctanos
           </Typography>
           <Typography className="mb-8 font-normal !text-gray-500">
-            You have Free Unlimited Updates and Premium Support on each package.
+            Cotizaciones y proyectos a la medida. Escríbenos por WhatsApp o visita nuestra web.
           </Typography>
         </div>
         <div className="mt-12">
@@ -58,7 +58,7 @@ export function PricingSectionOne() {
                   color="blue-gray"
                   className="capitalize mb-2 text-center"
                 >
-                  Open Source
+                  Información
                 </Typography>
 
                 <Typography
@@ -66,40 +66,40 @@ export function PricingSectionOne() {
                   color="blue-gray"
                   className="flex gap-1 justify-center"
                 >
-                  Free
+                  Gratuita
                 </Typography>
               </CardHeader>
               <CardBody className="text-center">
                 <ul className="flex flex-col mb-8 px-5">
                   <li className="flex items-center justify-center gap-3 border-b py-4 text-gray-700">
                     <Typography variant="small" className="font-normal text-inherit">
-                      Documentation
+                      Asesoría inicial
                     </Typography>
                   </li>
                   <li className="flex items-center justify-center gap-3 border-b py-4 text-gray-700">
                     <Typography variant="small" className="font-normal text-inherit">
-                      20 Components
+                      Cotización sin compromiso
                     </Typography>
                   </li>
                   <li className="flex items-center justify-center gap-3 border-b py-4 text-gray-700">
                     <Typography variant="small" className="font-normal text-inherit">
-                      10 Blocks
+                      WhatsApp 311-360.84.91
                     </Typography>
                   </li>
                   <li className="flex items-center justify-center gap-3 border-b py-4 text-gray-700">
                     <Typography variant="small" className="font-normal text-inherit">
-                      3 Example Pages
+                      Nosotros, Login, Contacto
                     </Typography>
                   </li>
                 </ul>
-                <a href="https://github.com/creativetimofficial/astro-launch-ui?ref=astroLaunch-UI-landing" target="_blank">
+                <a href="https://wa.me/573113608491" target="_blank" rel="noreferrer">
                   <Button
                     size="sm"
                     variant="gradient"
                     color="blue-gray"
                     className="from-blue-gray-900 to-blue-gray-800"
                   >
-                    Download
+                    Contactar
                   </Button>
                 </a>
               </CardBody>
@@ -119,7 +119,7 @@ export function PricingSectionOne() {
                   color="white"
                   className="capitalize mb-2 text-center"
                 >
-                  Pro Version
+                  Proyectos a medida
                 </Typography>
 
                 <Typography
@@ -127,7 +127,7 @@ export function PricingSectionOne() {
                   color="white"
                   className="flex gap-1 justify-center"
                 >
-                  $99
+                  Cotización
                 </Typography>
               </CardHeader>
               <CardBody className="text-center">
@@ -135,36 +135,36 @@ export function PricingSectionOne() {
                   <li
                     className="flex items-center justify-center gap-3 border-b py-4 text-white border-white/30">
                     <Typography variant="small" className="font-normal text-inherit">
-                      Documentation
+                      Diseño y fabricación
                     </Typography>
                   </li>
                   <li
                     className="flex items-center justify-center gap-3 border-b py-4 text-white border-white/30">
                     <Typography variant="small" className="font-normal text-inherit">
-                      140+ Components
+                      Montaje e interventoría
                     </Typography>
                   </li>
                   <li
                     className="flex items-center justify-center gap-3 border-b py-4 text-white border-white/30">
                     <Typography variant="small" className="font-normal text-inherit">
-                      30+ Blocks
+                      Mantenimiento outsourcing
                     </Typography>
                   </li>
                   <li
                     className="flex items-center justify-center gap-3 border-b py-4 text-white border-white/30">
                     <Typography variant="small" className="font-normal text-inherit">
-                      10+ Example Pages
+                      Repuestos y lubricantes
                     </Typography>
                   </li>
                 </ul>
-                <a href="#" onClick={() => { Paddle.Checkout.open ({ product: 847482 });} }>
+                <a href="https://wa.me/573113608491" target="_blank" rel="noreferrer">
                   <Button
                     id="847482"
                     size="sm"
                     variant="gradient"
                     color="white"
                   >
-                    Get Access
+                    Solicitar cotización
                   </Button>
                 </a>
               </CardBody>

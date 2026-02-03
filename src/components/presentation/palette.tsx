@@ -19,7 +19,7 @@ export function PalettePresentation() {
               color="blue"
               className="flex items-center justify-center lg:justify-start !font-bold text-lg mb-5"
             >
-              Attention to beautiful design
+              Equipos y soluciones
             </Typography>
 
             <Typography
@@ -27,10 +27,10 @@ export function PalettePresentation() {
               color="blue-gray"
               className="mb-8 leading-tight"
             >
-              Awesome color palette, variables & elements foundation.
+              Diseño, fabricación y montaje de equipos industriales.
             </Typography>
             <Typography color="gray" className="lg:pr-20">
-              Customize your colors, sizes, spacing or typography in minutes so they can fit perfectly for your brand. Spend time creating dApps logic and UX, our tools take care of the rest.
+              Extrusoras, molinos, tinas de enfriamiento, bandas haladoras, mesas de corte, sistemas de dosificación, prensas de vulcanizado, torres de enfriamiento y fabricación de repuestos para la industria del caucho y plástico.
             </Typography>
             
           </div>

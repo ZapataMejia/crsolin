@@ -22,11 +22,11 @@ export function AstroSection() {
               Let's join forces for a better web!
             </Typography>
             <Typography variant="lead" color="white">
-              AstroLaunch UI is an open source and powerful design system that lets you create Ecommerce websites that your users will love.
+              CR Soluciones Industriales: soluciones en diseño, fabricación, reparación de piezas y montajes industriales.
             </Typography>
-            <a href="https://github.com/creativetimofficial/astro-launch-ui">
+            <a href="https://github.com/ZapataMejia" target="_blank" rel="noreferrer">
               <Button color="white" size="sm" variant="outlined" className="flex items-center mt-5">
-                Get Started
+                Ver GitHub
               </Button>
             </a>
           </CardBody>

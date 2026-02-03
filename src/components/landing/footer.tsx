@@ -37,7 +37,7 @@ export function FooterTwo() {
       <div className="container mx-auto">
         <div className="grid grid-cols-1 justify-between gap-4 md:grid-cols-2">
           <Typography variant="h4" className="mb-6">
-            AstroLaunch UI
+            CR Soluciones Industriales
           </Typography>
           <div className="grid grid-cols-3 justify-between gap-4">
             {links.map(({ title, items }) => (
@@ -68,15 +68,14 @@ export function FooterTwo() {
         <div className="mt-16 flex flex-wrap items-end justify-center gap-y-4 gap-x-8 border-t border-blue-gray-50 py-6 md:justify-between">
           <div className="text-center md:text-start">
             <Typography variant="h4" color="blue-gray" className="mb-2">
-              Move faster with AstroLaunch UI
+              CR Soluciones Industriales
             </Typography>
             <Typography color="gray" className="font-normal">
-              Save countless hours of design and ship great looking designs
-              faster.
+              Diseño, fabricación y reparación de piezas. Asesoría e interventoría, construcción y montajes.
             </Typography>
           </div>
           <Typography color="gray" className="text-center font-normal">
-            &copy; {currentYear} Creative Tim, All rights reserved.
+            &copy; {currentYear} CR Soluciones Industriales. Todos los derechos reservados.
           </Typography>
         </div>
       </div>

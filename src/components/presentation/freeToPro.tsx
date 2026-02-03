@@ -24,24 +24,24 @@ function StatsCard({ count, title, desc }) {
 
 const stats = [
   {
-    count: "140+",
-    title: "Coded Elements",
-    desc: "From buttons, to inputs, navbars, alerts, tabels, cards or charts."
+    count: "12+",
+    title: "Equipos extrusión caucho",
+    desc: "Extrusora, cabezales, tinas, bandas, mesas de corte, atemperadores, prensa vulcanizado."
   },
   {
-    count: "10",
-    title: "Example Pages",
-    desc: "Save months of work when you use our pre-made pages."
+    count: "9+",
+    title: "Servicios principales",
+    desc: "Molino triturador, aglutinadora, extrusora PVC, tinas, bandas, dosificación, repuestos."
   },
   {
-    count: "30+",
-    title: "Design Blocks",
-    desc: "Mix the already made sections and unleash your creativity."
+    count: "100%",
+    title: "A la medida",
+    desc: "Diseño, construcción y montaje según las necesidades de tu proceso."
   },
   {
-    count: "40+",
-    title: "Global Styles",
-    desc: "Colors, typography system, shadows, and blur effects are ready to be used."
+    count: "—",
+    title: "Mantenimiento",
+    desc: "Outsourcing de mantenimiento y comercialización de repuestos, grasas y lubricantes."
   },
 ];
 
@@ -56,7 +56,7 @@ export function FigmaPresentation() {
               color="blue"
               className="font-bold text-lg mb-5"
             >
-              Fully Coded Components based on Astro
+              Nuestros equipos y servicios
             </Typography>
 
             <Typography
@@ -64,10 +64,10 @@ export function FigmaPresentation() {
               color="blue-gray"
               className="mb-8 leading-tight"
             >
-              Astro LaunchUI Pro
+              Diseño, fabricación y montaje
             </Typography>
             <Typography color="blue-gray" className="mb-5 lg:w-[30rem]">
-              All the sections and pages made with these elements will be fully responsive and will look beautiful on all types of screens, including phones, tables, or desktops.
+              Equipos para extrusión de caucho, marginadores para molino, molino triturador, aglutinadoras, extrusoras, tinas de enfriamiento, bandas haladoras, mesas de corte, sistemas de dosificación, torre de enfriamiento y fabricación de repuestos.
             </Typography>
           </div>
           <div className="lg:flex relative">
@@ -78,9 +78,9 @@ export function FigmaPresentation() {
                     <StatsCard key={key} {...props} />
                   ))}
                 </div>
-                <a href="https://www.creative-tim.com/product/astro-launch-ui-pro" target="_blank">
+                <a href="https://wa.me/573113608491" target="_blank" rel="noreferrer">
                   <Button color="dark" className="flex items-center">
-                     Astro Pro
+                    Contactar
                   </Button>
                 </a>
               </div>

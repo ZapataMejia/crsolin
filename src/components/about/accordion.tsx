@@ -33,35 +33,26 @@ export default function Example() {
     <Fragment>
       <Accordion open={open === 1} icon={<Icon id={1} open={open} />}>
         <AccordionHeader onClick={() => handleOpen(1)}>
-          What is AstroLaunch UI React?
+          ¿Qué es CR Soluciones Industriales?
         </AccordionHeader>
         <AccordionBody className="text-blue-gray-800">
-          We&apos;re not always in the position that we want to be at.
-          We&apos;re constantly growing. We&apos;re constantly making mistakes.
-          We&apos;re constantly trying to express ourselves and actualize our
-          dreams.
+          Prestamos un servicio de asesoría con acompañamiento en la solución y mejoramiento de procesos industriales mediante interventoría o ejecución en diseño, construcción y montaje, así como mantenimiento por outsourcing. Comercializamos repuestos, grasas y lubricantes.
         </AccordionBody>
       </Accordion>
       <Accordion open={open === 2} icon={<Icon id={2} open={open} />}>
         <AccordionHeader onClick={() => handleOpen(2)}>
-          How to use AstroLaunch UI React?
+          ¿Cómo contactarnos?
         </AccordionHeader>
         <AccordionBody className="text-blue-gray-800">
-          We&apos;re not always in the position that we want to be at.
-          We&apos;re constantly growing. We&apos;re constantly making mistakes.
-          We&apos;re constantly trying to express ourselves and actualize our
-          dreams.
+          Escríbenos por WhatsApp al 311-360.84.91 o visita nuestra página de contacto. Estamos para apoyarte en diseño, fabricación, reparación de piezas y montajes industriales.
         </AccordionBody>
       </Accordion>
       <Accordion open={open === 3} icon={<Icon id={3} open={open} />}>
         <AccordionHeader onClick={() => handleOpen(3)}>
-          What can I do with AstroLaunch UI React?
+          ¿Qué servicios ofrecemos?
         </AccordionHeader>
         <AccordionBody className="text-blue-gray-800">
-          We&apos;re not always in the position that we want to be at.
-          We&apos;re constantly growing. We&apos;re constantly making mistakes.
-          We&apos;re constantly trying to express ourselves and actualize our
-          dreams.
+          Asesoría e interventoría, diseño, construcción, mantenimiento por outsourcing y montajes. Equipos para extrusión de caucho, marginadores para molino, molino triturador, aglutinadoras, extrusoras, tinas de enfriamiento, bandas haladoras, mesas de corte, sistemas de dosificación, torre de enfriamiento y fabricación de repuestos.
         </AccordionBody>
       </Accordion>
     </Fragment>

@@ -14,7 +14,7 @@ export function FooterOne() {
           <div className="flex flex-wrap items-end justify-center gap-8 md:justify-between">
             <div className="text-center md:text-left">
               <Typography variant="h4" className="mb-6">
-                AstroLaunch UI
+                CR Soluciones Industriales
               </Typography>
               <ul className="flex flex-wrap items-center justify-center md:justify-start">
                 {links.map((link, idx) => (
@@ -45,7 +45,7 @@ export function FooterOne() {
           </div>
           <div className="mt-16 flex flex-wrap items-center justify-center gap-y-4 gap-x-8 border-t border-blue-gray-50 py-6 md:justify-between">
             <Typography color="gray" className="text-center font-normal">
-              &copy; {currentYear} Material Tailwind, All rights reserved.
+              &copy; {currentYear} CR Soluciones Industriales. Todos los derechos reservados.
             </Typography>
 
             <ul className="flex items-center">
