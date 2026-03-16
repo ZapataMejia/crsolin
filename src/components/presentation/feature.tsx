@@ -1,75 +1,72 @@
 import React from "react";
-import { Card, CardBody, Typography } from "@material-tailwind/react";
+import ThemeProvider from "../theme-provider";
+import {
+  WrenchScrewdriverIcon,
+  CubeIcon,
+  CogIcon,
+} from "@heroicons/react/24/outline";
 
-function FeatureCard({ icon, title, children }) {
-  return (
-    <Card color="transparent" shadow={false}>
-      <CardBody className="grid justify-center text-center">
-        {icon}
-        <Typography
-          variant="h5"
-          color="blue-gray"
-          className="mb-2 !font-semibold"
-        >
-          {title}
-        </Typography>
-        <Typography
-          color="blue-gray"
-          className="px-8 font-normal text-gray-700"
-        >
-          {children}
-        </Typography>
-      </CardBody>
-    </Card>
-  );
-}
-
-const features = [
+const services = [
   {
-    icon: (
-      <img className="w-32 mx-auto mb-4" src="icon1.png" alt="Diseño" />
-    ),
-    title: "Diseño",
+    icon: WrenchScrewdriverIcon,
+    title: "Diseño y Fabricación",
     description:
-      "Asesoría e interventoría en diseño de piezas y equipos industriales para procesos de caucho y plástico.",
+      "Diseño, fabricación y reparación de piezas y equipos industriales para procesos de caucho y plástico. Soluciones a la medida de cada necesidad.",
   },
   {
-    icon: (
-      <img className="w-32 mx-auto mb-4" src="icon2.png" alt="Fabricación" />
-    ),
-    title: "Fabricación",
+    icon: CubeIcon,
+    title: "Construcción y Montajes",
     description:
-      "Diseño, fabricación y reparación de piezas. Equipos para extrusión, molino, prensas y sistemas de dosificación.",
+      "Construcción, montaje e interventoría de líneas de producción y equipos industriales. Acompañamiento integral en cada etapa del proyecto.",
   },
   {
-    icon: (
-      <img className="w-32 mx-auto mb-4" src="icon3.png" alt="Montajes" />
-    ),
-    title: "Montajes",
+    icon: CogIcon,
+    title: "Mantenimiento y Repuestos",
     description:
-      "Construcción, mantenimiento por outsourcing y montajes industriales. Soluciones a la medida de tu proceso.",
-  }
+      "Mantenimiento por outsourcing, fabricación de repuestos y comercialización de grasas y lubricantes industriales.",
+  },
 ];
 
-export function FeatureLanding() {
+export function ServicesSection() {
   return (
-    <section className="px-4 mt-12">
-      <div className="container mx-auto mb-20 text-center">
-        <div className="flex justify-center align-center relative z-5">
-          <Typography color="dark" className="text-xl font-semibold">
-            CR Soluciones Industriales
-          </Typography>
+    <ThemeProvider>
+      <section id="servicios" className="bg-white px-6 py-20 lg:py-28">
+        <div className="container mx-auto">
+          <div className="mb-16 text-center">
+            <p className="mb-2 text-sm font-semibold uppercase tracking-widest text-gray-500">
+              Nuestros servicios
+            </p>
+            <h2 className="mb-4 text-3xl font-bold text-gray-900 md:text-4xl">
+              ¿Qué hacemos?
+            </h2>
+            <p className="mx-auto max-w-2xl text-lg text-gray-500">
+              Ofrecemos soluciones integrales para la industria del caucho y
+              plástico, desde el diseño hasta el mantenimiento.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+            {services.map(({ icon: Icon, title, description }) => (
+              <div
+                key={title}
+                className="rounded-2xl border border-gray-100 bg-white p-8 shadow-sm hover:shadow-md hover:border-gray-200 transition-all"
+              >
+                <div className="mb-6 flex h-14 w-14 items-center justify-center rounded-xl bg-gray-100">
+                  <Icon className="h-7 w-7 text-gray-700" strokeWidth={1.5} />
+                </div>
+                <h3 className="mb-3 text-xl font-bold text-gray-900">
+                  {title}
+                </h3>
+                <p className="text-gray-500 leading-relaxed">
+                  {description}
+                </p>
+              </div>
+            ))}
+          </div>
         </div>
-      </div>
-      <div className="container mx-auto grid grid-cols-1 gap-y-20 md:grid-cols-2 lg:grid-cols-3">
-        {features.map(({ icon, title, description }) => (
-          <FeatureCard key={title} icon={icon} title={title}>
-            {description}
-          </FeatureCard>
-        ))}
-      </div>
-    </section>
+      </section>
+    </ThemeProvider>
   );
 }
 
-export default FeatureLanding;
+export default ServicesSection;

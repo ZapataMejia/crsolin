@@ -1,67 +1,77 @@
 import React from "react";
-import {
-  Button,
-  Typography,
-} from "@material-tailwind/react";
 import ThemeProvider from "../theme-provider";
 import Navbar from "../navbar";
-import {
-  ArrowSmallRightIcon,
-} from "@heroicons/react/24/outline";
+import { WhatsAppIcon } from "../icons";
 
-export function HeroPresentation() {
- 
+export function HeroSection() {
   return (
     <ThemeProvider>
       <Navbar />
-      <header className="h-full w-screen place-items-center bg-white relative px-8 py-8 lg:mb-36">
-        <div className="container mx-auto grid items-center lg:grid-cols-2">
-          <div className="text-center lg:text-left pt-32">
-            <div className="mb-8 inline-flex items-center">
-              <Typography
-                variant="small"
-                className="mr-3 py-0.5 px-3 font-bold text-dark uppercase border-r border-dark"
+      <header
+        id="inicio"
+        className="relative min-h-[85vh] w-full flex items-center"
+      >
+        <div
+          className="absolute inset-0 bg-cover bg-center"
+          style={{
+            backgroundImage:
+              "url('https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')",
+          }}
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-gray-950/95 via-gray-900/85 to-gray-900/50" />
+
+        <div className="container mx-auto px-6 lg:px-8 relative z-10">
+          <div className="max-w-2xl">
+            <p className="mb-4 text-sm font-semibold uppercase tracking-widest text-gray-400">
+              Soluciones Industriales
+            </p>
+            <h1 className="mb-6 text-4xl font-black leading-tight text-white md:text-5xl lg:text-6xl">
+              Diseño, fabricación y{" "}
+              <span className="text-white/80">reparación de piezas</span>
+            </h1>
+            <p className="mb-10 text-lg text-gray-300 md:text-xl lg:pr-16">
+              Asesoría e interventoría, diseño, construcción, mantenimiento por
+              outsourcing y montajes industriales para el sector del caucho y
+              plástico.
+            </p>
+            <div className="flex flex-wrap gap-4">
+              <a
+                href="https://wa.me/573113608491"
+                target="_blank"
+                rel="noreferrer"
               >
-                Soluciones Industriales
-              </Typography>
-              <Typography
-                color="dark"
-                variant="small"
-                className="flex items-center font-bold uppercase"
-              >
-                CR Soluciones Industriales
-              </Typography>
-            </div>
-            <Typography
-              variant="h1"
-              color="blue-gray"
-              className="mb-8 lg:mr-32 leading-tight font-black"
-            >
-              Diseño, fabricación y <span className="text-blue">reparación de piezas</span>
-            </Typography>
-            <Typography variant="lead" color="blue-gray" className="lg:pr-32">
-              Asesoría e interventoría, diseño, construcción, mantenimiento por outsourcing y montajes.
-            </Typography>
-            <div className="mt-12 flex flex-wrap justify-center gap-3 lg:justify-start">
-              <a href="https://wa.me/573113608491" target="_blank" rel="noreferrer">
-                <Button color="dark" className="flex items-center">
+                <button className="flex items-center gap-2 rounded-lg bg-white px-6 py-3 text-sm font-semibold text-gray-900 hover:bg-gray-100 transition-colors shadow-lg">
+                  <WhatsAppIcon className="h-5 w-5 text-green-600" />
                   Contactar por WhatsApp
-                </Button>
+                </button>
               </a>
-              <a href="#pricing">
-                <Button variant="outlined" color="dark" className="flex items-center">
-                  Ver más
-                </Button>
+              <a href="#servicios">
+                <button className="rounded-lg border border-white/30 px-6 py-3 text-sm font-semibold text-white hover:bg-white/10 transition-colors">
+                  Ver servicios
+                </button>
               </a>
+            </div>
+            <div className="mt-12 flex items-center gap-8 text-gray-400">
+              <div>
+                <p className="text-3xl font-bold text-white">12+</p>
+                <p className="text-sm">Tipos de equipos</p>
+              </div>
+              <div className="h-10 w-px bg-gray-700" />
+              <div>
+                <p className="text-3xl font-bold text-white">100%</p>
+                <p className="text-sm">A la medida</p>
+              </div>
+              <div className="h-10 w-px bg-gray-700" />
+              <div>
+                <p className="text-3xl font-bold text-white">+57 311</p>
+                <p className="text-sm">360 84 91</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div className="hidden lg:flex">
-          <img src="header.png" alt="components" className="absolute -top-10 right-0 w-1/2" />
         </div>
       </header>
     </ThemeProvider>
   );
 }
 
-export default HeroPresentation;
+export default HeroSection;
