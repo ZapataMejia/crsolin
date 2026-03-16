@@ -12,7 +12,7 @@ const valores = [
   {
     icon: ShieldCheckIcon,
     title: "Calidad garantizada",
-    description: "Cada pieza y equipo fabricado cumple con los más altos estándares de calidad industrial.",
+    description: "Cada pieza y equipo cumple con los más altos estándares de calidad industrial.",
   },
   {
     icon: ClockIcon,
@@ -22,12 +22,12 @@ const valores = [
   {
     icon: UserGroupIcon,
     title: "Acompañamiento",
-    description: "Asesoría integral desde la etapa de diseño hasta el montaje y puesta en marcha.",
+    description: "Asesoría integral desde el diseño hasta el montaje y puesta en marcha.",
   },
   {
     icon: LightBulbIcon,
     title: "Soluciones a medida",
-    description: "Cada proyecto es único. Diseñamos y fabricamos según las necesidades específicas del proceso.",
+    description: "Diseñamos y fabricamos según las necesidades específicas del proceso.",
   },
 ];
 
@@ -97,7 +97,7 @@ export function NosotrosSection() {
           {/* Por qué elegirnos */}
           <div>
             <div className="mb-12 text-center">
-              <p className="mb-2 text-sm font-semibold uppercase tracking-widest text-gray-500">
+              <p className="mb-2 text-sm font-semibold uppercase tracking-widest text-gray-400">
                 Nuestra propuesta de valor
               </p>
               <h2 className="mb-4 text-3xl font-bold text-gray-900 md:text-4xl">
