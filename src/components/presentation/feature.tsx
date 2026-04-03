@@ -25,7 +25,7 @@ const services = [
     icon: CogIcon,
     title: "Mantenimiento y Repuestos",
     description:
-      "Mantenimiento por outsourcing, fabricación de repuestos y comercialización de grasas y lubricantes industriales.",
+      "Mantenimiento por outsourcing. Fabricación de Repuestos y Suministro de Insumos para la industria del Caucho y el Plástico.",
     number: "03",
   },
 ];

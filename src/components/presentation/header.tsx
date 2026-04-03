@@ -29,18 +29,15 @@ export function HeroSection() {
               </span>
             </div>
 
-            <h1 className="mb-6 text-4xl font-black leading-[1.1] text-white sm:text-5xl lg:text-7xl">
-              Diseño, fabricación
-              <br />
-              <span className="text-gray-400">y reparación</span>
-              <br />
-              de piezas
+            <h1 className="mb-5 text-3xl font-black leading-tight text-white sm:text-4xl lg:text-5xl max-w-4xl">
+              Fabricación de Repuestos y Suministro de Insumos para la
+              industria del Caucho y el Plástico.
             </h1>
 
-            <p className="mb-10 max-w-xl text-base text-gray-400 sm:text-lg leading-relaxed">
-              Asesoría e interventoría, diseño, construcción, mantenimiento por
-              outsourcing y montajes industriales para el sector del caucho y
-              plástico.
+            <p className="mb-10 max-w-xl text-base font-medium text-gray-400 sm:text-lg leading-relaxed">
+              Diseño, fabricación y reparación de piezas. Asesoría e
+              interventoría, diseño, construcción, mantenimiento por outsourcing
+              y montajes industriales.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-3 mb-16">

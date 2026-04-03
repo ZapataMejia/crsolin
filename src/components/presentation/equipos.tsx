@@ -24,7 +24,7 @@ const categorias = [
   {
     titulo: "Repuestos e insumos",
     descripcion:
-      "Fabricación de repuestos industriales a medida, comercialización de grasas y lubricantes especializados, torres de enfriamiento.",
+      "Fabricación de repuestos industriales a medida, suministro de insumos para caucho y plástico, torres de enfriamiento.",
     cantidad: "100%",
     label: "a medida",
     imagen:

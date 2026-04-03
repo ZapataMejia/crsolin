@@ -14,8 +14,8 @@ export function Footer() {
                 CR Soluciones Industriales
               </p>
               <p className="text-sm text-gray-500">
-                Diseño, fabricación y reparación de piezas. Asesoría,
-                construcción y montajes industriales.
+                Fabricación de repuestos y suministro de insumos para caucho y
+                plástico. Diseño, fabricación y montajes industriales.
               </p>
             </div>
 

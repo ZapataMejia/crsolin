@@ -64,10 +64,9 @@ export function NosotrosSection() {
                 así como también en la prestación de servicio de mantenimiento
                 por outsourcing.
               </p>
-              <p className="mb-8 text-lg text-gray-500 leading-relaxed">
-                Comercializamos repuestos, grasas y lubricantes para la
-                industria del caucho y plástico. Nuestro compromiso es ofrecer
-                soluciones integrales y de calidad.
+              <p className="mb-8 text-lg font-medium text-gray-800 leading-relaxed border-l-4 border-gray-900 pl-5">
+                Fabricación de Repuestos y Suministro de Insumos para la
+                industria del Caucho y el Plástico.
               </p>
 
               <div className="grid grid-cols-2 gap-4 mb-8">
