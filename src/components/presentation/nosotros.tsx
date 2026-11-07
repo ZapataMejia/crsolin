@@ -112,7 +112,7 @@ export function NosotrosSection() {
               {valores.map(({ icon: Icon, title, description }) => (
                 <div
                   key={title}
-                  className="rounded-2xl bg-gray-50 border border-gray-100 p-6 hover:bg-gray-100 transition-colors"
+                  className="rounded-2xl border border-gray-100 bg-gray-50 p-6 transition-all duration-300 hover:-translate-y-1 hover:border-gray-900 hover:bg-white hover:shadow-lg"
                 >
                   <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-gray-900">
                     <Icon className="h-6 w-6 text-white" strokeWidth={1.5} />

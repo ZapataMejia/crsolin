@@ -26,16 +26,16 @@ export function ContactoSection() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <button className="flex w-full sm:w-auto items-center justify-center gap-2 rounded-lg bg-white px-6 py-3.5 text-sm font-semibold text-gray-900 hover:bg-gray-100 transition-colors">
-                    <WhatsAppIcon className="h-5 w-5 text-green-600" />
+                  <span className="flex w-full items-center justify-center gap-2 rounded-lg bg-green-600 px-6 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-green-500 sm:w-auto">
+                    <WhatsAppIcon className="h-5 w-5" />
                     Abrir WhatsApp
-                  </button>
+                  </span>
                 </a>
                 <a href="mailto:info@crsolin.com">
-                  <button className="flex w-full sm:w-auto items-center justify-center gap-2 rounded-lg bg-white/10 border border-white/20 px-6 py-3.5 text-sm font-semibold text-white hover:bg-white/20 transition-colors">
+                  <span className="flex w-full items-center justify-center gap-2 rounded-lg border border-white/20 bg-white/10 px-6 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-white hover:text-gray-900 sm:w-auto">
                     <EnvelopeIcon className="h-5 w-5" />
                     Enviar correo
-                  </button>
+                  </span>
                 </a>
               </div>
             </div>

@@ -19,7 +19,7 @@ function NavList({ onClose }: { onClose?: () => void }) {
           <a
             href={href}
             onClick={onClose}
-            className="flex items-center px-3 py-2 text-sm font-medium text-gray-700 rounded-lg hover:bg-gray-100 hover:text-gray-900 transition-colors"
+            className="flex items-center rounded-lg px-3 py-2 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-100 hover:text-gray-900"
           >
             {label}
           </a>
@@ -66,16 +66,17 @@ export default function SiteNavbar() {
               target="_blank"
               rel="noreferrer"
             >
-              <button className="flex items-center gap-2 rounded-lg bg-gray-900 px-4 py-2 text-sm font-medium text-white hover:bg-gray-800 transition-colors">
+              <span className="flex items-center gap-2 rounded-lg bg-green-600 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-green-500">
                 <WhatsAppIcon className="h-4 w-4" />
                 WhatsApp
-              </button>
+              </span>
             </a>
           </div>
 
           <button
-            className="lg:hidden p-2 text-gray-700 hover:bg-gray-100 rounded-lg"
+            className="rounded-lg p-2 text-gray-700 hover:bg-gray-100 lg:hidden"
             onClick={() => setIsNavOpen(!isNavOpen)}
+            aria-label={isNavOpen ? "Cerrar menú" : "Abrir menú"}
           >
             {isNavOpen ? (
               <XMarkIcon className="h-6 w-6" />
@@ -94,10 +95,10 @@ export default function SiteNavbar() {
               rel="noreferrer"
               className="block mb-2"
             >
-              <button className="flex w-full items-center justify-center gap-2 rounded-lg bg-gray-900 px-4 py-2.5 text-sm font-medium text-white">
+              <span className="flex w-full items-center justify-center gap-2 rounded-lg bg-green-600 px-4 py-2.5 text-sm font-medium text-white">
                 <WhatsAppIcon className="h-4 w-4" />
                 WhatsApp
-              </button>
+              </span>
             </a>
           </div>
         )}

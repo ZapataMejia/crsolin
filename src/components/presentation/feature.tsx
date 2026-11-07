@@ -52,20 +52,21 @@ export function ServicesSection() {
             {services.map(({ icon: Icon, title, description, number }) => (
               <div
                 key={title}
-                className="group rounded-2xl border border-gray-100 bg-white p-8 hover:bg-gray-900 hover:border-gray-900 transition-all duration-300"
+                className="group relative overflow-hidden rounded-2xl border border-gray-200 bg-white p-8 transition-all duration-300 hover:-translate-y-1 hover:border-gray-900 hover:bg-gray-900 hover:shadow-2xl"
               >
-                <div className="flex items-center justify-between mb-8">
-                  <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-gray-100 group-hover:bg-white/10 transition-colors">
-                    <Icon className="h-7 w-7 text-gray-700 group-hover:text-white transition-colors" strokeWidth={1.5} />
+                <span className="absolute left-0 top-0 h-1 w-0 bg-yellow-500 transition-all duration-300 group-hover:w-full" />
+                <div className="mb-8 flex items-center justify-between">
+                  <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-gray-100 transition-colors group-hover:bg-white/10">
+                    <Icon className="h-7 w-7 text-gray-700 transition-colors group-hover:text-white" strokeWidth={1.5} />
                   </div>
-                  <span className="text-4xl font-black text-gray-100 group-hover:text-white/10 transition-colors">
+                  <span className="text-4xl font-black text-gray-400 transition-colors group-hover:text-white/50">
                     {number}
                   </span>
                 </div>
-                <h3 className="mb-3 text-xl font-bold text-gray-900 group-hover:text-white transition-colors">
+                <h3 className="mb-3 text-xl font-bold text-gray-900 transition-colors group-hover:text-white">
                   {title}
                 </h3>
-                <p className="text-gray-500 group-hover:text-gray-400 leading-relaxed transition-colors">
+                <p className="leading-relaxed text-gray-500 transition-colors group-hover:text-gray-300">
                   {description}
                 </p>
               </div>

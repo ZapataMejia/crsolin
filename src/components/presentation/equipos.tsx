@@ -19,7 +19,7 @@ const categorias = [
     cantidad: "9",
     label: "servicios",
     imagen:
-      "https://images.unsplash.com/photo-1567789884554-0b844b597180?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
   },
   {
     titulo: "Repuestos e insumos",
@@ -48,18 +48,18 @@ export function EquiposSection() {
 
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
             {/* Card principal - Extrusión */}
-            <div className="relative rounded-2xl overflow-hidden md:col-span-2 lg:col-span-2 md:row-span-2 min-h-[400px] lg:min-h-[520px] flex flex-col justify-between">
+            <div className="group relative flex min-h-[400px] flex-col justify-between overflow-hidden rounded-2xl md:col-span-2 md:row-span-2 lg:col-span-2 lg:min-h-[520px]">
               <img
                 src={categorias[0].imagen}
                 alt={categorias[0].titulo}
-                className="absolute inset-0 h-full w-full object-cover"
+                className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-gray-950 via-gray-950/60 to-gray-950/30" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black via-black/80 to-black/50" />
               <div className="relative z-10 p-8">
-                <p className="text-6xl font-black text-white/20 leading-none lg:text-8xl">
+                <p className="text-6xl font-black text-white/40 leading-none lg:text-8xl">
                   {categorias[0].cantidad}
                 </p>
-                <p className="text-xs font-semibold uppercase tracking-wider text-gray-400 mt-1">
+                <p className="text-xs font-semibold uppercase tracking-wider text-gray-300 mt-1">
                   {categorias[0].label}
                 </p>
               </div>
@@ -74,7 +74,7 @@ export function EquiposSection() {
                   href="https://wa.me/573113608491"
                   target="_blank"
                   rel="noreferrer"
-                  className="inline-flex items-center gap-2 rounded-lg bg-white px-5 py-2.5 text-sm font-semibold text-gray-900 hover:bg-gray-200 transition-colors"
+                  className="inline-flex items-center gap-2 rounded-lg bg-white px-5 py-2.5 text-sm font-semibold text-gray-900 transition-colors hover:bg-yellow-500 hover:text-gray-900"
                 >
                   <WhatsAppIcon className="h-4 w-4 text-green-600" />
                   Solicitar cotización
@@ -83,18 +83,18 @@ export function EquiposSection() {
             </div>
 
             {/* Card Procesamiento */}
-            <div className="relative rounded-2xl overflow-hidden min-h-[250px] flex flex-col justify-between">
+            <div className="group relative flex min-h-[250px] flex-col justify-between overflow-hidden rounded-2xl">
               <img
                 src={categorias[1].imagen}
                 alt={categorias[1].titulo}
-                className="absolute inset-0 h-full w-full object-cover"
+                className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-gray-950 via-gray-950/70 to-gray-950/30" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black via-black/80 to-black/50" />
               <div className="relative z-10 p-6">
-                <p className="text-5xl font-black text-white/20 leading-none">
+                <p className="text-5xl font-black text-white/40 leading-none">
                   {categorias[1].cantidad}
                 </p>
-                <p className="text-[10px] font-semibold uppercase tracking-wider text-gray-400 mt-1">
+                <p className="text-[10px] font-semibold uppercase tracking-wider text-gray-300 mt-1">
                   {categorias[1].label}
                 </p>
               </div>
@@ -102,25 +102,25 @@ export function EquiposSection() {
                 <h3 className="text-lg font-bold text-white mb-2">
                   {categorias[1].titulo}
                 </h3>
-                <p className="text-sm text-gray-400 leading-relaxed">
+                <p className="text-sm text-gray-300 leading-relaxed">
                   {categorias[1].descripcion}
                 </p>
               </div>
             </div>
 
             {/* Card Repuestos */}
-            <div className="relative rounded-2xl overflow-hidden min-h-[250px] flex flex-col justify-between">
+            <div className="group relative flex min-h-[250px] flex-col justify-between overflow-hidden rounded-2xl">
               <img
                 src={categorias[2].imagen}
                 alt={categorias[2].titulo}
-                className="absolute inset-0 h-full w-full object-cover"
+                className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-gray-950 via-gray-950/70 to-gray-950/30" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black via-black/80 to-black/50" />
               <div className="relative z-10 p-6">
-                <p className="text-5xl font-black text-white/20 leading-none">
+                <p className="text-5xl font-black text-white/40 leading-none">
                   {categorias[2].cantidad}
                 </p>
-                <p className="text-[10px] font-semibold uppercase tracking-wider text-gray-400 mt-1">
+                <p className="text-[10px] font-semibold uppercase tracking-wider text-gray-300 mt-1">
                   {categorias[2].label}
                 </p>
               </div>
@@ -128,14 +128,14 @@ export function EquiposSection() {
                 <h3 className="text-lg font-bold text-white mb-2">
                   {categorias[2].titulo}
                 </h3>
-                <p className="text-sm text-gray-400 leading-relaxed">
+                <p className="text-sm text-gray-300 leading-relaxed">
                   {categorias[2].descripcion}
                 </p>
               </div>
             </div>
 
             {/* Producto destacado */}
-            <div className="rounded-2xl bg-gray-900 p-8 flex flex-col justify-between min-h-[200px] lg:col-span-3">
+            <div className="flex min-h-[200px] flex-col justify-between rounded-2xl bg-gray-900 p-8 ring-1 ring-yellow-500/30 lg:col-span-3">
               <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6">
                 <div className="flex items-center gap-5">
                   <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl bg-white/10">
@@ -160,7 +160,7 @@ export function EquiposSection() {
                   href="https://wa.me/573113608491?text=Hola%2C%20me%20interesa%20información%20sobre%20los%20marginadores%20desplazables"
                   target="_blank"
                   rel="noreferrer"
-                  className="inline-flex items-center justify-center gap-2 rounded-lg border border-white/20 px-5 py-2.5 text-sm font-semibold text-white hover:bg-white/10 transition-colors shrink-0"
+                  className="inline-flex shrink-0 items-center justify-center gap-2 rounded-lg bg-yellow-500 px-5 py-2.5 text-sm font-semibold text-gray-900 transition-colors hover:bg-yellow-500/90"
                 >
                   Consultar
                   <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
