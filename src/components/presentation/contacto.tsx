@@ -5,11 +5,11 @@ import { WhatsAppIcon, PhoneIcon, EnvelopeIcon } from "../icons";
 export function ContactoSection() {
   return (
     <ThemeProvider>
-      <section id="contacto" className="bg-gray-900 px-6 py-20 lg:py-28">
+      <section id="contacto" className="bg-gray-900 px-6 py-20 lg:py-24">
         <div className="container mx-auto">
           <div className="grid gap-12 lg:grid-cols-2 items-center">
             <div>
-              <p className="mb-3 text-sm font-semibold uppercase tracking-widest text-gray-500">
+              <p className="mb-3 text-sm font-semibold uppercase tracking-widest text-[#7eb0e8]">
                 Contacto
               </p>
               <h2 className="mb-4 text-3xl font-bold text-white md:text-4xl">
@@ -32,7 +32,7 @@ export function ContactoSection() {
                   </span>
                 </a>
                 <a href="mailto:info@crsolin.com">
-                  <span className="flex w-full items-center justify-center gap-2 rounded-lg border border-white/20 bg-white/10 px-6 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-white hover:text-gray-900 sm:w-auto">
+                  <span className="flex w-full items-center justify-center gap-2 rounded-lg border border-white/20 bg-white/10 px-6 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-[#1A56A0] hover:text-white sm:w-auto">
                     <EnvelopeIcon className="h-5 w-5" />
                     Enviar correo
                   </span>

@@ -4,11 +4,12 @@ import ThemeProvider from "./theme-provider";
 import { WhatsAppIcon } from "./icons";
 
 const NAV_ITEMS = [
-  { label: "Inicio", href: "#inicio" },
-  { label: "Servicios", href: "#servicios" },
-  { label: "Equipos", href: "#equipos" },
-  { label: "Nosotros", href: "#nosotros" },
-  { label: "Contacto", href: "#contacto" },
+  { label: "Inicio", href: "/#inicio" },
+  { label: "Servicios", href: "/#servicios" },
+  { label: "Blog", href: "/#blog" },
+  { label: "Capacidades", href: "/#equipos" },
+  { label: "Nosotros", href: "/#nosotros" },
+  { label: "Contacto", href: "/#contacto" },
 ];
 
 function NavList({ onClose }: { onClose?: () => void }) {
@@ -19,7 +20,7 @@ function NavList({ onClose }: { onClose?: () => void }) {
           <a
             href={href}
             onClick={onClose}
-            className="flex items-center rounded-lg px-3 py-2 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-100 hover:text-gray-900"
+            className="flex items-center rounded-lg px-3 py-2 text-sm font-medium text-gray-700 transition-colors hover:bg-[#eef2f6] hover:text-[#1a56a0]"
           >
             {label}
           </a>
@@ -55,8 +56,12 @@ export default function SiteNavbar() {
         }`}
       >
         <div className="container mx-auto flex items-center justify-between">
-          <a href="#inicio" className="shrink-0 text-lg font-bold text-gray-900">
-            CR Soluciones Industriales
+          <a href="#inicio" className="shrink-0">
+            <img
+              src="/brand/logo-nav.png"
+              alt="CR Soluciones Industriales"
+              className="h-10 w-auto max-w-[220px] object-contain object-left sm:h-11"
+            />
           </a>
 
           <div className="hidden lg:flex lg:items-center lg:gap-4">

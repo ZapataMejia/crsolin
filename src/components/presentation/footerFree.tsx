@@ -14,8 +14,7 @@ export function Footer() {
                 CR Soluciones Industriales
               </p>
               <p className="text-sm text-gray-500">
-                Fabricación de repuestos y suministro de insumos para caucho y
-                plástico. Diseño, fabricación y montajes industriales.
+                Ingeniería que optimiza. Soluciones que generan valor.
               </p>
             </div>
 
@@ -45,7 +44,7 @@ export function Footer() {
               </a>
               <a
                 href="mailto:info@crsolin.com"
-                className="flex h-10 w-10 items-center justify-center rounded-full bg-gray-800 text-gray-400 hover:bg-gray-600 hover:text-white transition-colors"
+                className="flex h-10 w-10 items-center justify-center rounded-full bg-white/10 text-gray-400 hover:bg-[#1A56A0] hover:text-white transition-colors"
                 aria-label="Email"
               >
                 <EnvelopeIcon className="h-5 w-5" />
@@ -53,7 +52,7 @@ export function Footer() {
             </div>
           </div>
 
-          <hr className="my-8 border-gray-800" />
+          <hr className="my-8 border-white/10" />
 
           <p className="text-center text-xs text-gray-600">
             &copy; {YEAR} CR Soluciones Industriales. Todos los derechos

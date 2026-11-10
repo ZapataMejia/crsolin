@@ -34,7 +34,7 @@ const valores = [
 export function NosotrosSection() {
   return (
     <ThemeProvider>
-      <section id="nosotros" className="bg-white px-6 py-20 lg:py-28">
+      <section id="nosotros" className="bg-[#eef2f6] px-6 py-20 lg:py-24">
         <div className="container mx-auto">
           {/* Quiénes somos */}
           <div className="grid items-center gap-12 lg:grid-cols-2 mb-24">
@@ -44,7 +44,7 @@ export function NosotrosSection() {
                 alt="Manufactura industrial"
                 className="rounded-2xl w-full h-[420px] object-cover"
               />
-              <div className="absolute -bottom-5 -right-5 hidden lg:block rounded-2xl bg-gray-900 p-6 text-white shadow-xl">
+              <div className="absolute -bottom-5 -right-5 hidden lg:block rounded-2xl bg-[#0A325C] p-6 text-white shadow-xl">
                 <p className="text-3xl font-bold">100%</p>
                 <p className="text-sm text-gray-300">A la medida</p>
               </div>
@@ -55,28 +55,24 @@ export function NosotrosSection() {
                 Sobre nosotros
               </p>
               <h2 className="mb-6 text-3xl font-bold text-gray-900 leading-tight md:text-4xl">
-                Soluciones industriales a la medida de tu proceso
+                Consultoría independiente. Ingeniería en planta.
               </h2>
               <p className="mb-5 text-lg text-gray-500 leading-relaxed">
-                Prestamos un servicio de asesoría con el acompañamiento en la
-                solución y mejoramiento en procesos industriales mediante la
-                interventoría o ejecución en el diseño, construcción y montaje,
-                así como también en la prestación de servicio de mantenimiento
-                por outsourcing.
+                Más de 20 años en entornos industriales. Identificamos el
+                problema, diseñamos la solución y acompañamos la implementación.
               </p>
-              <p className="mb-8 text-lg font-medium text-gray-800 leading-relaxed border-l-4 border-gray-900 pl-5">
-                Fabricación de Repuestos y Suministro de Insumos para la
-                industria del Caucho y el Plástico.
+              <p className="mb-8 text-lg font-medium text-gray-800 leading-relaxed border-l-4 border-[#0A325C] pl-5">
+                Carlos Adrián Ramírez Gómez. Ingeniero mecánico. Medellín.
               </p>
 
               <div className="grid grid-cols-2 gap-4 mb-8">
                 <div className="rounded-xl bg-gray-50 border border-gray-100 p-4">
-                  <p className="text-2xl font-bold text-gray-900">12+</p>
-                  <p className="text-sm text-gray-500">Equipos de extrusión</p>
+                  <p className="text-2xl font-bold text-gray-900">20+</p>
+                  <p className="text-sm text-gray-500">Años en industria</p>
                 </div>
                 <div className="rounded-xl bg-gray-50 border border-gray-100 p-4">
-                  <p className="text-2xl font-bold text-gray-900">9+</p>
-                  <p className="text-sm text-gray-500">Servicios principales</p>
+                  <p className="text-2xl font-bold text-gray-900">100%</p>
+                  <p className="text-sm text-gray-500">A la medida</p>
                 </div>
               </div>
 
@@ -85,8 +81,8 @@ export function NosotrosSection() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <button className="flex items-center gap-2 rounded-lg bg-gray-900 px-6 py-3 text-sm font-semibold text-white hover:bg-gray-800 transition-colors">
-                  <WhatsAppIcon className="h-5 w-5 text-green-400" />
+                <button className="flex items-center gap-2 rounded-lg bg-green-600 px-6 py-3 text-sm font-semibold text-white hover:bg-green-700 transition-colors">
+                  <WhatsAppIcon className="h-5 w-5" />
                   Hablar con nosotros
                 </button>
               </a>
@@ -112,9 +108,9 @@ export function NosotrosSection() {
               {valores.map(({ icon: Icon, title, description }) => (
                 <div
                   key={title}
-                  className="rounded-2xl border border-gray-100 bg-gray-50 p-6 transition-all duration-300 hover:-translate-y-1 hover:border-gray-900 hover:bg-white hover:shadow-lg"
+                  className="rounded-2xl border border-gray-100 bg-white p-6 transition-all duration-300 hover:-translate-y-1 hover:border-[#1A56A0] hover:bg-white hover:shadow-lg"
                 >
-                  <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-gray-900">
+                  <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-[#0A325C]">
                     <Icon className="h-6 w-6 text-white" strokeWidth={1.5} />
                   </div>
                   <h3 className="mb-2 text-base font-bold text-gray-900">

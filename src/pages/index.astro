@@ -1,16 +1,21 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import HeroSection from "../components/presentation/header"
-import ServicesSection from "../components/presentation/feature"
-import EquiposSection from "../components/presentation/equipos"
-import NosotrosSection from "../components/presentation/nosotros"
-import ContactoSection from "../components/presentation/contacto"
-import Footer from "../components/presentation/footerFree"
+import Layout from "../layouts/Layout.astro";
+import HeroSection from "../components/presentation/header";
+import BlogsSection from "../components/presentation/blogs.astro";
+import ServicesSection from "../components/presentation/feature";
+import EquiposSection from "../components/presentation/equipos";
+import NosotrosSection from "../components/presentation/nosotros";
+import ContactoSection from "../components/presentation/contacto";
+import Footer from "../components/presentation/footerFree";
 ---
 
-<Layout title="Inicio" metaDescription="CR Soluciones Industriales — Fabricación de Repuestos y Suministro de Insumos para la industria del Caucho y el Plástico. Diseño, fabricación, asesoría y montajes industriales.">
-	<main>
+<Layout
+  title="Inicio"
+  metaDescription="Consultoría y optimización de procesos productivos. Ingeniería mecánica aplicada, caucho y polímeros. Medellín."
+>
+  <main>
     <HeroSection client:only="react" />
+    <BlogsSection />
     <ServicesSection client:only="react" />
     <EquiposSection client:only="react" />
     <NosotrosSection client:only="react" />

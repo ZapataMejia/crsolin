@@ -6,9 +6,9 @@ const categorias = [
   {
     titulo: "Extrusión de caucho",
     descripcion:
-      "Líneas completas de extrusión: extrusoras, cabezales, tinas de enfriamiento, bandas haladoras, mesas de corte automático, atemperadores, prensas de vulcanizado y sistemas de dosificación.",
-    cantidad: "12",
-    label: "equipos",
+      "Extrusoras, cabezales, tinas, bandas, corte, atemperadores y vulcanizado. Se diseñan y fabrican bajo pedido, no hay línea en bodega.",
+    cantidad: "100%",
+    label: "a la medida",
     imagen:
       "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
   },
@@ -35,15 +35,21 @@ const categorias = [
 export function EquiposSection() {
   return (
     <ThemeProvider>
-      <section id="equipos" className="bg-gray-50 px-6 py-20 lg:py-28">
+      <section id="equipos" className="bg-white px-6 py-20 lg:py-24">
         <div className="container mx-auto">
           <div className="mb-16 max-w-2xl">
-            <p className="mb-3 text-sm font-semibold uppercase tracking-widest text-gray-400">
-              Equipos y productos
+            <p className="mb-3 text-sm font-semibold uppercase tracking-widest text-[#1a56a0]">
+              Capacidades
             </p>
-            <h2 className="mb-4 text-3xl font-bold text-gray-900 md:text-4xl">
-              Todo lo que necesitas para tu línea de producción
+            <h2 className="mb-4 text-3xl font-bold text-[#0a325c] md:text-4xl">
+              Lo que se fabrica cuando la planta lo pide
             </h2>
+            <p className="text-lg leading-relaxed text-gray-600">
+              Todo se hace a la medida. No hay una línea en bodega esperando
+              comprador. Se parte de lo que esa planta necesita: el cuello de
+              botella, el espacio, la receta, el presupuesto y el tiempo que
+              pueden parar. Con eso se diseña, se fabrica o se acompaña el montaje.
+            </p>
           </div>
 
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
@@ -54,7 +60,7 @@ export function EquiposSection() {
                 alt={categorias[0].titulo}
                 className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black via-black/80 to-black/50" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/55 to-black/25" />
               <div className="relative z-10 p-8">
                 <p className="text-6xl font-black text-white/40 leading-none lg:text-8xl">
                   {categorias[0].cantidad}
@@ -74,7 +80,7 @@ export function EquiposSection() {
                   href="https://wa.me/573113608491"
                   target="_blank"
                   rel="noreferrer"
-                  className="inline-flex items-center gap-2 rounded-lg bg-white px-5 py-2.5 text-sm font-semibold text-gray-900 transition-colors hover:bg-yellow-500 hover:text-gray-900"
+                  className="inline-flex items-center gap-2 rounded-lg bg-white px-5 py-2.5 text-sm font-semibold text-gray-900 transition-colors hover:bg-[#1a56a0] hover:text-white"
                 >
                   <WhatsAppIcon className="h-4 w-4 text-green-600" />
                   Solicitar cotización
@@ -89,7 +95,7 @@ export function EquiposSection() {
                 alt={categorias[1].titulo}
                 className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black via-black/80 to-black/50" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/55 to-black/25" />
               <div className="relative z-10 p-6">
                 <p className="text-5xl font-black text-white/40 leading-none">
                   {categorias[1].cantidad}
@@ -115,7 +121,7 @@ export function EquiposSection() {
                 alt={categorias[2].titulo}
                 className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black via-black/80 to-black/50" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/55 to-black/25" />
               <div className="relative z-10 p-6">
                 <p className="text-5xl font-black text-white/40 leading-none">
                   {categorias[2].cantidad}
@@ -135,10 +141,10 @@ export function EquiposSection() {
             </div>
 
             {/* Producto destacado */}
-            <div className="flex min-h-[200px] flex-col justify-between rounded-2xl bg-gray-900 p-8 ring-1 ring-yellow-500/30 lg:col-span-3">
+            <div className="flex min-h-[200px] flex-col justify-between rounded-2xl border border-gray-200 bg-gray-50 p-8 lg:col-span-3">
               <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6">
                 <div className="flex items-center gap-5">
-                  <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl bg-white/10">
+                  <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl bg-[#0A325C]">
                     <svg
                       className="h-7 w-7 text-white"
                       fill="currentColor"
@@ -148,10 +154,10 @@ export function EquiposSection() {
                     </svg>
                   </div>
                   <div>
-                    <p className="text-xs font-semibold uppercase tracking-wider text-gray-500 mb-1">
-                      Producto destacado
+                    <p className="text-xs font-semibold uppercase tracking-wider text-[#1a56a0] mb-1">
+                      Un ejemplo, a la medida
                     </p>
-                    <p className="text-xl font-bold text-white lg:text-2xl">
+                    <p className="text-xl font-bold text-gray-900 lg:text-2xl">
                       Marginadores desplazables para molino de caucho
                     </p>
                   </div>
@@ -160,7 +166,7 @@ export function EquiposSection() {
                   href="https://wa.me/573113608491?text=Hola%2C%20me%20interesa%20información%20sobre%20los%20marginadores%20desplazables"
                   target="_blank"
                   rel="noreferrer"
-                  className="inline-flex shrink-0 items-center justify-center gap-2 rounded-lg bg-yellow-500 px-5 py-2.5 text-sm font-semibold text-gray-900 transition-colors hover:bg-yellow-500/90"
+                  className="inline-flex shrink-0 items-center justify-center gap-2 rounded-lg bg-[#1a56a0] px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-[#164785]"
                 >
                   Consultar
                   <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
