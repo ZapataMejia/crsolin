@@ -5,6 +5,8 @@ export const SITE = {
   tagline: "Transformamos problemas productivos en resultados industriales.",
   slogan: "Ingeniería que optimiza. Soluciones que generan valor.",
   ally: "Su aliado en la excelencia industrial",
+  lead:
+    "Ayudamos a las empresas de manufactura a incrementar su productividad, reducir pérdidas operativas y mejorar la confiabilidad de sus equipos mediante soluciones de ingeniería aplicadas.",
   description:
     "Consultoría independiente en ingeniería mecánica, optimización de procesos productivos y mejoramiento de maquinaria industrial. Más de 20 años en planta. Medellín.",
   quote:
@@ -30,11 +32,11 @@ export const NAV = [
 ];
 
 export const PILARES = [
-  "Consultoría en Ingeniería",
+  "Ingeniería y Consultoría Industrial",
   "Optimización de Procesos",
-  "Mantenimiento Industrial",
-  "Proyectos y Soluciones Integrales",
-  "Confiabilidad y Productividad",
+  "Gestión de Mantenimiento",
+  "Diseño y desarrollo de Soluciones Mecánicas",
+  "Interventoría y Proyectos Industriales",
 ];
 
 export const SERVICIOS = [
@@ -92,15 +94,15 @@ export const MERCADO =
 
 export const COLLAGE = [
   {
-    src: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=1400&q=80",
-    alt: "Montaje en planta",
+    src: "/hero/analizar.jpg",
+    alt: "Ingeniero de CR Soluciones Industriales en planta: analizar, optimizar y mejorar",
   },
   {
-    src: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=900&q=80",
-    alt: "Ingeniería en proceso",
+    src: "/hero/linea.jpg",
+    alt: "Línea de producción: optimización de procesos productivos",
   },
   {
-    src: "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&w=900&q=80",
-    alt: "Trabajo en metal",
+    src: "/hero/resultados.jpg",
+    alt: "De diagnóstico a resultados: mejora, eficiencia y productividad",
   },
 ];
