@@ -21,6 +21,11 @@ export const SITE = {
   whatsapp: "https://wa.me/573113608491",
   url: "https://crsolin.com",
   years: "20+",
+  maker: {
+    person: "Santiago Zapata",
+    brand: "ZapataMejia",
+    github: "https://github.com/ZapataMejia",
+  },
 };
 
 export const NAV = [
@@ -39,36 +44,39 @@ export const PILARES = [
   "Interventoría y Proyectos Industriales",
 ];
 
+export const SERVICIOS_INTRO =
+  "Somos una firma especializada en consultoría de ingeniería mecánica y optimización de procesos industriales. Acompañamos a las empresas en la identificación de oportunidades de mejora, solución de problemas técnicos, optimización de recursos y fortalecimiento de la productividad y confiabilidad operacional.";
+
 export const SERVICIOS = [
   {
     n: "01",
-    title: "Diagnóstico y optimización de procesos",
+    title: "Consultoría especializada en ingeniería mecánica",
+    blurb:
+      "Ingeniería mecánica aplicada a planta: análisis técnico, planos y acompañamiento.",
+  },
+  {
+    n: "02",
+    title: "Optimización de procesos productivos",
     blurb:
       "Cuellos de botella, tiempos de producción, desperdicios y métodos de trabajo.",
   },
   {
-    n: "02",
-    title: "Mejoramiento de maquinaria industrial",
+    n: "03",
+    title: "Diagnóstico y confiabilidad de equipos",
     blurb:
       "Fallas mecánicas, rediseño de equipos y menos paradas no programadas.",
   },
   {
-    n: "03",
-    title: "Productividad industrial",
-    blurb:
-      "Eficiencia, pérdidas productivas, indicadores y mejoramiento continuo.",
-  },
-  {
     n: "04",
-    title: "Ingeniería mecánica aplicada",
+    title: "Gestión y optimización del mantenimiento",
     blurb:
-      "Componentes, planos técnicos y acompañamiento a fabricación y montaje.",
+      "Planes de mantenimiento, outsourcing y reducción de tiempos muertos.",
   },
   {
     n: "05",
-    title: "Consultoría en caucho y polímeros",
+    title: "Diseño, interventoría y ejecución de proyectos industriales",
     blurb:
-      "Extrusión, vulcanización, formulaciones y defectos de fabricación.",
+      "Diseño, construcción y montaje, con interventoría o ejecución a la medida.",
   },
 ];
 

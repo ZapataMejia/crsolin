@@ -12,9 +12,6 @@ export function HeroSection() {
         <div className="container mx-auto px-6 py-12 lg:px-8 lg:py-16">
           <div className="grid items-start gap-10 lg:grid-cols-12 lg:gap-10">
             <div className="flex flex-col lg:col-span-5">
-              <p className="mb-4 text-sm font-semibold uppercase tracking-widest text-[#1a56a0]">
-                Ingeniería mecánica · Medellín
-              </p>
               <h1 className="max-w-xl text-4xl font-bold leading-[1.15] tracking-tight text-[#0a325c] sm:text-5xl">
                 Consultoría y optimización de procesos productivos
               </h1>
