@@ -30,6 +30,7 @@ export const SITE = {
 
 export const NAV = [
   { label: "Inicio", href: "/#inicio" },
+  { label: "Administración", href: "/#administracion" },
   { label: "Servicios", href: "/#servicios" },
   { label: "Publicaciones", href: "/publicaciones" },
   { label: "Nosotros", href: "/#nosotros" },
@@ -43,6 +44,33 @@ export const PILARES = [
   "Diseño y desarrollo de Soluciones Mecánicas",
   "Interventoría y Proyectos Industriales",
 ];
+
+export const ADMINISTRACION = {
+  kicker: "Administración por outsourcing",
+  title: "Administración empresarial por outsourcing",
+  subtitle: "Gestión administrativa y operativa tercerizada",
+  lead: "Ofrecemos soluciones de administración empresarial mediante la tercerización de procesos administrativos y operativos, permitiendo a las empresas concentrarse en su actividad principal, optimizar sus recursos y mejorar su eficiencia organizacional.",
+  follow:
+    "A través de una gestión profesional, brindamos acompañamiento, coordinación y control de actividades administrativas y operativas, adaptándonos a las necesidades particulares de cada organización.",
+  alcanceLabel: "Alcance del servicio",
+  alcance: [
+    "Gestión y coordinación administrativa",
+    "Planeación y seguimiento de actividades operativas",
+    "Control de costos y presupuestos",
+    "Gestión y seguimiento de proveedores",
+    "Control de compras, inventarios y abastecimiento",
+    "Indicadores de gestión (KPI)",
+    "Organización y mejoramiento de procesos",
+    "Seguimiento a mantenimiento y gestión de activos",
+  ],
+  objetivoLabel: "Nuestro objetivo",
+  objetivos: [
+    "Optimizar recursos",
+    "Controlar costos",
+    "Mejorar procesos",
+    "Fortalecer la eficiencia empresarial",
+  ],
+};
 
 export const SERVICIOS_INTRO =
   "Somos una firma especializada en consultoría de ingeniería mecánica y optimización de procesos industriales. Acompañamos a las empresas en la identificación de oportunidades de mejora, solución de problemas técnicos, optimización de recursos y fortalecimiento de la productividad y confiabilidad operacional.";

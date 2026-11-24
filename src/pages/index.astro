@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import HeroSection from "../components/presentation/header";
+import AdministracionSection from "../components/presentation/administracion";
 import BlogsSection from "../components/presentation/blogs.astro";
 import ServicesSection from "../components/presentation/feature";
 import EquiposSection from "../components/presentation/equipos";
@@ -11,10 +12,11 @@ import Footer from "../components/presentation/footerFree";
 
 <Layout
   title="Inicio"
-  metaDescription="Consultoría y optimización de procesos productivos. Ingeniería mecánica aplicada, caucho y polímeros. Medellín."
+  metaDescription="Consultoría y optimización de procesos productivos. Administración empresarial por outsourcing. Ingeniería mecánica aplicada, caucho y polímeros. Medellín."
 >
   <main>
     <HeroSection client:only="react" />
+    <AdministracionSection client:only="react" />
     <BlogsSection />
     <ServicesSection client:only="react" />
     <EquiposSection client:only="react" />

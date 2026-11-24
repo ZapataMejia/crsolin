@@ -5,6 +5,7 @@ import { WhatsAppIcon } from "./icons";
 
 const NAV_ITEMS = [
   { label: "Inicio", href: "/#inicio" },
+  { label: "Administración", href: "/#administracion" },
   { label: "Servicios", href: "/#servicios" },
   { label: "Blog", href: "/#blog" },
   { label: "Capacidades", href: "/#equipos" },
