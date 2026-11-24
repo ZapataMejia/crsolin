@@ -3,32 +3,33 @@ titulo: "Que el plano y la planta coincidan"
 bajada: "Diseñar no es suficiente. El valor está en acompañar la fabricación y el montaje, para que lo acordado se cumpla en el piso."
 fecha: 2026-10-06
 tema: Interventoría
-lectura: 6 min
+lectura: 8 min
 autor: Carlos Adrián Ramírez Gómez
 cargo: Ingeniero mecánico
-portada: https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&w=1600&q=80
-portadaAlt: Fabricación y montaje en taller
+portada: /blog/montaje.jpg
+portadaAlt: Soldadura y fabricación, el momento en que el plano tiene que coincidir con el piso
 ---
 
-Un plano no mezcla caucho. Un documento no pone en marcha una línea. La interventoría, en este oficio, consiste en estar presente cuando el equipo llega, cuando se instala y cuando se verifica que cumple lo especificado.
+Un plano no mezcla caucho. Un documento no pone en marcha una línea. La interventoría, en este oficio, es estar cuando el equipo llega, cuando se instala y cuando se verifica que cumple lo que se acordó. No es firmar papeles desde afuera.
 
-## Qué se revisa
+Lo he dicho de varias formas y lo sigo viendo igual: el cliente no está comprando un dibujo. Está comprando que el proceso mejore, dentro del presupuesto y del tiempo de parada que esa planta puede asumir.
 
-Se confirma, entre otros puntos:
+![Plano de ingeniería](/blog/plano.jpg)
 
-- Que el equipo recibido corresponde a lo acordado
+## Qué se revisa, en la práctica
+
+Se confirma, entre otras cosas:
+
+- Que lo recibido corresponde a lo acordado
 - Que las velocidades y los acoples entre etapas son coherentes
-- Que un nuevo corte o un nuevo enfriamiento no se convierta en el siguiente atraso
+- Que un corte nuevo o un enfriamiento nuevo no se vuelva el siguiente atraso
 
-El cliente no adquiere un equipo de catálogo. Adquiere que el proceso mejore, dentro del presupuesto y del tiempo de parada que esa planta puede asumir.
+Suena básico. En el piso no siempre lo es. Se cambia una cosa, se mueve otra, y el cuello de botella camina dos metros.
 
-## Un acompañamiento puntual
+## Un acompañamiento puntual, no un paquete
 
-Cada proyecto tiene un alcance distinto. En unos casos se diseña. En otros se fabrica un componente. En otros se acompaña el montaje. Las tres vías son a la medida.
+Cada proyecto tiene un alcance distinto. En unos casos se diseña. En otros se fabrica un componente. En otros se acompaña el montaje. Las tres vías son a la medida. No hay una línea de catálogo esperando en bodega.
 
-Si está por adjudicar fabricación o instalación y requiere seguimiento técnico, puede escribirnos. El alcance se define con claridad desde el inicio.
+Si está por adjudicar fabricación o instalación y necesita seguimiento técnico, el alcance se define con claridad desde el inicio. Qué se revisa. Qué no. Cuándo hay que estar. Eso evita el típico “yo pensé que eso iba incluido”.
 
-## Referencias
-
-- Interventoría de diseño, fabricación y montaje en procesos de caucho y polímeros.
-- Acompañamiento a plantas en Antioquia y en otras regiones del país.
+El plano y la planta tienen que coincidir. Si no coinciden, el plano era un deseo. El trabajo mío es que dejen de ser dos conversaciones distintas.

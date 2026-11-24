@@ -1,36 +1,43 @@
 ---
 titulo: "El cuello de botella casi nunca está donde se señala primero"
-bajada: "Antes de invertir en un equipo nuevo, conviene identificar en qué punto del proceso se detiene el flujo."
+bajada: "Cuando el turno no cierra, lo primero que se pide es otra máquina. En planta, el atraso suele estar un paso antes o un paso después."
 fecha: 2026-11-03
-tema: Asesoría
-lectura: 8 min
+tema: Planta
+lectura: 9 min
 autor: Carlos Adrián Ramírez Gómez
 cargo: Ingeniero mecánico
-portada: https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1600&q=80
-portadaAlt: Revisión de un proceso en planta
+portada: /blog/cuello.jpg
+portadaAlt: Nave industrial con puentes grúa, el tipo de planta donde se ve el flujo
 ---
 
-En plantas de transformación de caucho y de plástico es frecuente que, cuando la producción no alcanza el ritmo esperado, se piense de inmediato en adquirir un equipo adicional. Es una reacción comprensible: hay pedidos, hay turnos y hay presión.
+Llego a una planta y, casi siempre, la conversación empieza igual. Hay pedidos. El turno no está alcanzando. Alguien ya tiene el nombre de un equipo que hay que comprar.
 
-En la práctica, el punto que genera el atraso suele estar un paso antes o un paso después de la máquina que se menciona primero.
+Eso es comprensible. Cuando hay presión, uno quiere una solución que se pueda cotizar. Una máquina nueva se ve, se toca, se inaugura. Un cuello de botella en el pesaje o en el corte no se ve igual de bien en una reunión.
 
-## Qué observamos al entrar a planta
+El trabajo mío no es convencer a nadie de que no compre. Es preguntar, antes, **en qué punto se detiene el flujo hoy**.
 
-El diagnóstico no parte de un catálogo. Parte de recorrer el proceso con quien lo opera.
+![Nave industrial](/blog/nave.jpg)
 
-Se revisa el mezclado, el corte, el pesaje, el enfriamiento y el vulcanizado. En más de un caso, la extrusora cumple; lo que no alcanza es la mesa de corte, o el sistema de dosificación, o un recambio que ya no llega del fabricante original.
+## Lo que hago al entrar
 
-La pregunta útil es esta: **¿en qué punto se detiene el flujo hoy?**
+No parto de un catálogo. Recorro el proceso con quien lo opera. El que está en el piso sabe más que el plano.
 
-## A la medida, no a inventario
+Miro el mezclado, el corte, el pesaje, el enfriamiento, el vulcanizado. Pregunto dónde se forma la fila. Dónde la gente espera. Dónde se pierde el ritmo entre un puesto y el siguiente.
 
-A veces la solución es un componente, un ajuste de método o un acompañamiento de montaje. Otras veces sí corresponde diseñar una línea. Las dos rutas se definen según esa planta: espacio, receta, presupuesto y tiempo de parada disponible.
+En más de un caso la extrusora cumple. Lo que no alcanza es la mesa de corte, o la dosificación, o un recambio que el fabricante original ya no manda. El equipo “principal” se ve ocupado; el atraso está al lado.
 
-No ofrecemos equipos en bodega. Ofrecemos ingeniería aplicada al caso.
+## Una pregunta que ahorra plata
 
-Si desea revisar un proceso con esa mirada, puede escribirnos. El primer paso es una conversación técnica.
+Antes de invertir, conviene quedarse un rato en esa pregunta: ¿el material se detiene aquí, o aquí es solo donde más se nota?
 
-## Referencias
+A veces la solución es un componente. A veces un ajuste de método. A veces sí corresponde diseñar una línea. Las dos rutas se definen con esa planta: el espacio que hay, la receta, el presupuesto y cuánto pueden parar.
 
-- Experiencia de interventoría y asesoría en plantas de caucho y polímeros en Antioquia.
-- Buenas prácticas de análisis de flujo en líneas de transformación (mezclado, extrusión, corte y vulcanizado).
+No tengo equipos en bodega esperando comprador. Si algo se fabrica, se fabrica para ese caso.
+
+## Lo que no se ve en la foto
+
+El cuello de botella también puede ser una persona. Un procedimiento que solo uno conoce. Una báscula que “ya todo el mundo sabe cómo se porta”. El día que esa persona no está, el turno se cae y se vuelve a hablar de comprar máquina.
+
+Eso también es ingeniería. Ordenar lo que ya se hace bien y dejarlo escrito de forma que el lunes, al arrancar, otro pueda seguirlo.
+
+Si esto le suena a lo que está pasando en su planta, escribame. Con una descripción breve del síntoma —y una foto, si se puede— se puede orientar el alcance. El primer paso es una conversación técnica, no una lista de equipos.
