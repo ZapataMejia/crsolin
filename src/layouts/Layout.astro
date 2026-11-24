@@ -30,9 +30,122 @@ const {
     <meta property="og:type" content="website" />
     <meta property="og:url" content={canonical} />
     <link rel="canonical" href={canonical} />
+    <script is:inline>
+      try {
+        if (location.hash) {
+          sessionStorage.setItem(
+            "cr-scroll",
+            decodeURIComponent(location.hash.slice(1)),
+          );
+          history.replaceState(null, "", location.pathname + location.search);
+        }
+      } catch (e) {}
+    </script>
   </head>
   <body class="overflow-x-hidden bg-[#eef2f6] antialiased">
     <slot />
+    <script is:inline>
+      (() => {
+        const STORE = "cr-scroll";
+        let scrollGen = 0;
+
+        const reduced = () =>
+          window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+        const cleanUrl = () => {
+          if (!location.hash) return;
+          history.replaceState(null, "", location.pathname + location.search);
+        };
+
+        const waitForId = (id) => {
+          const { promise, resolve } = Promise.withResolvers();
+          const started = Date.now();
+          const tick = () => {
+            const el = document.getElementById(id);
+            if (el) {
+              resolve(el);
+              return;
+            }
+            if (Date.now() - started > 4000) {
+              resolve(null);
+              return;
+            }
+            requestAnimationFrame(tick);
+          };
+          tick();
+          return promise;
+        };
+
+        const goToId = async (id) => {
+          const el = await waitForId(id);
+          if (!el) return;
+          const gen = ++scrollGen;
+          if (el.tabIndex < 0) el.tabIndex = -1;
+          await el.scrollIntoView({
+            behavior: reduced() ? "instant" : "smooth",
+            block: "start",
+          });
+          if (gen !== scrollGen) return;
+          el.focus({ preventScroll: true });
+        };
+
+        const samePath = (url) => {
+          const a = url.pathname.replace(/\/$/, "") || "/";
+          const b = location.pathname.replace(/\/$/, "") || "/";
+          return a === b;
+        };
+
+        document.addEventListener(
+          "click",
+          (e) => {
+          if (e.button !== 0) return;
+          if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+          const a = e.target.closest("a[href]");
+          if (!a) return;
+          let url;
+          try {
+            url = new URL(a.href, location.href);
+          } catch {
+            return;
+          }
+          if (url.origin !== location.origin) return;
+          const id = decodeURIComponent((url.hash || "").slice(1));
+          if (!id) return;
+          e.preventDefault();
+          if (samePath(url)) {
+            cleanUrl();
+            goToId(id);
+            return;
+          }
+          try {
+            sessionStorage.setItem(STORE, id);
+          } catch {}
+          location.assign(url.pathname + url.search);
+        },
+          true,
+        );
+
+        window.addEventListener("hashchange", () => {
+          const id = decodeURIComponent((location.hash || "").slice(1));
+          cleanUrl();
+          if (id) goToId(id);
+        });
+
+        let pending = null;
+        try {
+          pending = sessionStorage.getItem(STORE);
+          sessionStorage.removeItem(STORE);
+        } catch {}
+        if (!pending && location.hash) {
+          pending = decodeURIComponent(location.hash.slice(1));
+        }
+        cleanUrl();
+        if (pending) {
+          goToId(pending);
+          window.addEventListener("load", () => goToId(pending), { once: true });
+        }
+      })();
+    </script>
   </body>
 </html>
 <style is:global>
@@ -44,6 +157,9 @@ const {
     --silver: #6b7785;
   }
   html { scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+  }
   body { font-family: Inter, ui-sans-serif, system-ui, sans-serif; }
   section[id], header[id] { scroll-margin-top: 6.5rem; }
   .article-body p { margin: 0 0 1.25rem; line-height: 1.75; color: #374151; font-size: 1.125rem; }
