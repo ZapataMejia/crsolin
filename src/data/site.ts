@@ -31,6 +31,7 @@ export const SITE = {
 export const NAV = [
   { label: "Inicio", href: "/#inicio" },
   { label: "Administración", href: "/#administracion" },
+  { label: "Clientes", href: "/#clientes" },
   { label: "Servicios", href: "/#servicios" },
   { label: "Publicaciones", href: "/publicaciones" },
   { label: "Nosotros", href: "/#nosotros" },
@@ -69,6 +70,49 @@ export const ADMINISTRACION = {
     "Controlar costos",
     "Mejorar procesos",
     "Fortalecer la eficiencia empresarial",
+  ],
+};
+
+export const CLIENTES = {
+  kicker: "Referentes",
+  title: "Nuestros clientes",
+  subtitle: "Empresas que han confiado en nosotros",
+  items: [
+    {
+      name: "Set Products S.A.S.",
+      src: "/clientes/set-products.webp",
+      width: 1200,
+      height: 401,
+      tone: "light" as const,
+    },
+    {
+      name: "Soluciones en Caucho S.A.S.",
+      src: "/clientes/soluciones-en-caucho.webp",
+      width: 267,
+      height: 161,
+      tone: "dark" as const,
+    },
+    {
+      name: "Kalpa Foods S.A.S.",
+      src: "/clientes/kalpa-foods.webp",
+      width: 128,
+      height: 118,
+      tone: "light" as const,
+    },
+    {
+      name: "Grupo Etherea S.A.S.",
+      src: null,
+      width: 0,
+      height: 0,
+      tone: "light" as const,
+    },
+    {
+      name: "Rayman S.A.S.",
+      src: "/clientes/rayman.webp",
+      width: 811,
+      height: 295,
+      tone: "dark" as const,
+    },
   ],
 };
 

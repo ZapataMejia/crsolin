@@ -2,6 +2,7 @@
 import Layout from "../layouts/Layout.astro";
 import HeroSection from "../components/presentation/header";
 import AdministracionSection from "../components/presentation/administracion";
+import ClientesSection from "../components/presentation/clientes";
 import BlogsSection from "../components/presentation/blogs.astro";
 import ServicesSection from "../components/presentation/feature";
 import EquiposSection from "../components/presentation/equipos";
@@ -17,6 +18,7 @@ import Footer from "../components/presentation/footerFree";
   <main>
     <HeroSection client:only="react" />
     <AdministracionSection client:only="react" />
+    <ClientesSection client:only="react" />
     <BlogsSection />
     <ServicesSection client:only="react" />
     <EquiposSection client:only="react" />

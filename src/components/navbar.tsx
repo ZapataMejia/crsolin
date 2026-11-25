@@ -7,6 +7,7 @@ import ThemeToggle from "./site/ThemeToggle";
 const NAV_ITEMS = [
   { label: "Inicio", href: "/#inicio" },
   { label: "Administración", href: "/#administracion" },
+  { label: "Clientes", href: "/#clientes" },
   { label: "Servicios", href: "/#servicios" },
   { label: "Blog", href: "/#blog" },
   { label: "Capacidades", href: "/#equipos" },
