@@ -13,7 +13,7 @@ export const SITE = {
     "Servicio de Asesoría con el acompañamiento en la Solución y Mejoramiento en Procesos Industriales mediante la Interventoría o Ejecución en el Diseño, Construcción y Montaje, así como también en la prestación de servicio de Mantenimiento por Outsourcing.",
   city: "Medellín, Antioquia",
   rut: "9.893.899-8",
-  person: "Carlos Adrián Ramírez Gómez",
+  person: "Carlos Ramírez",
   role: "Ingeniero mecánico · Responsable técnico",
   email: "info@crsolin.com",
   phoneDisplay: "311 360 84 91",

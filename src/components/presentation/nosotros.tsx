@@ -62,7 +62,7 @@ export function NosotrosSection() {
                 problema, diseñamos la solución y acompañamos la implementación.
               </p>
               <p className="mb-8 text-lg font-medium text-gray-800 leading-relaxed border-l-4 border-[#0A325C] pl-5">
-                Carlos Adrián Ramírez Gómez. Ingeniero mecánico. Medellín.
+                Carlos Ramírez. Ingeniero mecánico. Medellín.
               </p>
 
               <div className="grid grid-cols-2 gap-4 mb-8">
