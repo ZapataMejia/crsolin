@@ -7,7 +7,7 @@ export interface Props {
 
 const {
   title,
-  metaDescription = "Consultoría y optimización de procesos productivos. Ingeniería mecánica aplicada, caucho y polímeros, Medellín.",
+  metaDescription = "Consultoría y optimización de procesos productivos. Administración empresarial por outsourcing. Caucho y polímeros, Medellín.",
   canonical = "https://crsolin.com",
 } = Astro.props;
 ---
@@ -394,7 +394,9 @@ const {
   .article-body p { margin: 0 0 1.25rem; line-height: 1.75; color: var(--muted); font-size: 1.125rem; }
   .article-body h2 { margin: 2.25rem 0 0.75rem; font-size: 1.5rem; font-weight: 700; color: var(--navy); line-height: 1.3; }
   .article-body h3 { margin: 1.75rem 0 0.5rem; font-size: 1.15rem; font-weight: 650; color: var(--navy); }
-  .article-body ul { margin: 0 0 1.25rem; padding-left: 1.25rem; }
+  .article-body ul,
+  .article-body ol { margin: 0 0 1.25rem; padding-left: 1.25rem; }
+  .article-body ol { list-style: decimal; }
   .article-body li { margin: 0 0 0.4rem; line-height: 1.7; color: var(--muted); font-size: 1.125rem; }
   .article-body img { width: 100%; border-radius: 1rem; margin: 1.75rem 0; }
   .article-body figcaption { margin: -1rem 0 1.75rem; font-size: 0.875rem; color: var(--muted); }

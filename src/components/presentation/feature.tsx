@@ -6,6 +6,7 @@ import {
   WrenchScrewdriverIcon,
   CogIcon,
   Square3Stack3DIcon,
+  BuildingOffice2Icon,
 } from "@heroicons/react/24/outline";
 import { SERVICIOS, SERVICIOS_INTRO } from "../../data/site";
 
@@ -15,6 +16,7 @@ const ICONS = [
   WrenchScrewdriverIcon,
   CogIcon,
   Square3Stack3DIcon,
+  BuildingOffice2Icon,
 ];
 
 export function ServicesSection() {
@@ -34,13 +36,13 @@ export function ServicesSection() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 xl:grid-cols-5">
+          <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {SERVICIOS.map(({ title, blurb, n }, i) => {
               const Icon = ICONS[i];
               return (
                 <div
                   key={title}
-                  className="group relative flex h-full flex-col overflow-hidden rounded-2xl border border-gray-200 bg-white p-6 transition-all duration-300 hover:-translate-y-1 hover:border-[#1a56a0] hover:shadow-lg"
+                  className="group relative flex h-full min-w-0 flex-col overflow-hidden rounded-2xl border border-gray-200 bg-white p-6 transition-all duration-300 hover:-translate-y-1 hover:border-[#1a56a0] hover:shadow-lg"
                 >
                   <span className="absolute left-0 top-0 h-1 w-0 bg-[#1a56a0] transition-all duration-300 group-hover:w-full" />
                   <div className="mb-6 flex items-center justify-between">

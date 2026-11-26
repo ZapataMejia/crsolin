@@ -8,7 +8,7 @@ export const SITE = {
   lead:
     "Ayudamos a las empresas de manufactura a incrementar su productividad, reducir pérdidas operativas y mejorar la confiabilidad de sus equipos mediante soluciones de ingeniería aplicadas.",
   description:
-    "Consultoría independiente en ingeniería mecánica, optimización de procesos productivos y mejoramiento de maquinaria industrial. Más de 20 años en planta. Medellín.",
+    "Consultoría independiente en ingeniería, optimización de procesos productivos y mejoramiento de maquinaria industrial. Más de 20 años en planta. Medellín.",
   quote:
     "Servicio de Asesoría con el acompañamiento en la Solución y Mejoramiento en Procesos Industriales mediante la Interventoría o Ejecución en el Diseño, Construcción y Montaje, así como también en la prestación de servicio de Mantenimiento por Outsourcing.",
   city: "Medellín, Antioquia",
@@ -44,6 +44,7 @@ export const PILARES = [
   "Gestión de Mantenimiento",
   "Diseño y desarrollo de Soluciones Mecánicas",
   "Interventoría y Proyectos Industriales",
+  "Administración empresarial por outsourcing",
 ];
 
 export const ADMINISTRACION = {
@@ -113,18 +114,25 @@ export const CLIENTES = {
       height: 295,
       tone: "dark" as const,
     },
+    {
+      name: "Sempertex",
+      src: "/clientes/sempertex.webp",
+      width: 400,
+      height: 189,
+      tone: "light" as const,
+    },
   ],
 };
 
 export const SERVICIOS_INTRO =
-  "Somos una firma especializada en consultoría de ingeniería mecánica y optimización de procesos industriales. Acompañamos a las empresas en la identificación de oportunidades de mejora, solución de problemas técnicos, optimización de recursos y fortalecimiento de la productividad y confiabilidad operacional.";
+  "Somos una firma especializada en consultoría de ingeniería y optimización de procesos industriales. Acompañamos a las empresas en la identificación de oportunidades de mejora, solución de problemas técnicos, optimización de recursos y fortalecimiento de la productividad y confiabilidad operacional.";
 
 export const SERVICIOS = [
   {
     n: "01",
-    title: "Consultoría especializada en ingeniería mecánica",
+    title: "Consultoría especializada en ingeniería",
     blurb:
-      "Ingeniería mecánica aplicada a planta: análisis técnico, planos y acompañamiento.",
+      "Ingeniería aplicada a planta: análisis técnico, planos y acompañamiento.",
   },
   {
     n: "02",
@@ -150,6 +158,12 @@ export const SERVICIOS = [
     blurb:
       "Diseño, construcción y montaje, con interventoría o ejecución a la medida.",
   },
+  {
+    n: "06",
+    title: "Administración empresarial por outsourcing",
+    blurb:
+      "Gestión administrativa y operativa tercerizada, para que la empresa se concentre en su actividad principal.",
+  },
 ];
 
 export const ENFOQUE = [
@@ -162,7 +176,7 @@ export const ENFOQUE = [
 ];
 
 export const POR_QUE = [
-  "Experiencia en ingeniería mecánica industrial",
+  "Experiencia en ingeniería industrial",
   "Enfoque práctico orientado a resultados",
   "Soluciones adaptadas a cada proceso",
   "Flexibilidad para trabajar como ingeniería externa",

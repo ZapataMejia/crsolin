@@ -68,11 +68,11 @@ export function HeroSection() {
                 </dd>
               </div>
             </dl>
-            <ul className="flex flex-wrap gap-2 xl:flex-nowrap xl:justify-between">
+            <ul className="flex flex-wrap gap-2">
               {PILARES.map((p) => (
                 <li
                   key={p}
-                  className="rounded-full border border-[#1a56a0]/20 bg-[#eef2f6] px-3 py-1.5 text-xs font-medium text-[#0a325c] lg:whitespace-nowrap"
+                  className="rounded-full border border-[#1a56a0]/20 bg-[#eef2f6] px-3 py-1.5 text-xs font-medium text-[#0a325c]"
                 >
                   {p}
                 </li>

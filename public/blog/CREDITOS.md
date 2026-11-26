@@ -9,3 +9,4 @@
 - `material.jpg` — Pexels 35383622, inspección de material.
 - `linea.jpg` — Unsplash (photo-1581091226825), línea de ensamble.
 - `plano.jpg` — Pexels 3862379, plano de ingeniería.
+- `latex.jpg` — foto del slide de Carlos Adrián (sangría de hevea / látex de campo).

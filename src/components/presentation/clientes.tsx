@@ -21,7 +21,7 @@ export function ClientesSection() {
             </p>
           </div>
 
-          <ul className="mt-10 grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-3 xl:grid-cols-5">
+          <ul className="mt-10 grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-3">
             {CLIENTES.items.map((item) => (
               <li key={item.name} className="min-w-0">
                 <figure className="flex h-full flex-col overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--surface)]">
